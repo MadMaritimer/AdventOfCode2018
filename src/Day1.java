@@ -30,8 +30,11 @@ public class Day1 {
                 }
                 usedFrequencies.add(freq);
             }
-            System.out.println("Runs: "+ ++count);
-            //System.out.println("Final answer: "+freq);
+            if(count == 0){
+                System.out.println("Part 1 Answer: " + freq);
+            }
+            System.out.println("Runs: " + ++count);
+
         }
     }
 }

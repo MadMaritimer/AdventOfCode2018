@@ -40,7 +40,7 @@ public class Day3 {
                 }
             }
         }
-        System.out.println("Overlapping tiles: " + count);
+        System.out.println("Part 1 Answer: " + count);
         return usageMap;
     }
 
@@ -79,7 +79,7 @@ public class Day3 {
         try{
            Map<Integer, Map<Integer,Boolean>> useageMap = Part1();
            int clearPatch = Part2(useageMap);
-           System.out.println("Final Answer: " + clearPatch);
+           System.out.println("Part 2 Answer: " + clearPatch);
         } catch (Exception e){
             e.printStackTrace();
         }

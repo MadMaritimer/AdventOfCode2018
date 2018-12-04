@@ -43,7 +43,7 @@ public class Day2 {
                 has3 = false;
             }
         }
-        System.out.println("Checksum: "+twoCount*threeCount);
+        System.out.println("Part 1 Answer: "+twoCount*threeCount);
     }
 
     public static void Part2() throws Exception{
@@ -75,7 +75,7 @@ public class Day2 {
                     }
                 }
                 if (candidate){
-                    System.out.println("Solution: "+matchingChars);
+                    System.out.println("Final Answer: "+matchingChars);
                     searching = false;
                     break;
                 }
